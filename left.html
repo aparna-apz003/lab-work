@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Left Frame</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('book.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      backdrop-filter: blur(6px);
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    h3 {
+      color: #003366;
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 18px 0;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #003366;
+      padding: 12px 20px;
+      border: 2px solid #003366;
+      border-radius: 10px;
+      background-color: #e6f2ff;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    a i {
+      font-size: 18px;
+    }
+
+    a:hover {
+      background-color: #003366;
+      color: white;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h3>📚 Categories</h3>
+    <ul>
+      <li><a href="cse.html" target="rightFrame"><i class="fas fa-laptop-code"></i> CSE</a></li>
+      <li><a href="ece.html" target="rightFrame"><i class="fas fa-microchip"></i> ECE</a></li>
+      <li><a href="eee.html" target="rightFrame"><i class="fas fa-bolt"></i> EEE</a></li>
+      <li><a href="civil.html" target="rightFrame"><i class="fas fa-drafting-compass"></i> CIVIL</a></li>
+     
+    </ul>
+  </div>
+</body>
+</html>

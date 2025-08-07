@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EEE Catalogue</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    h2 {
+      color: #003366;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: white;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #003366;
+      color: white;
+    }
+    .book-cover {
+      height: 100px;
+    }
+    .add-button {
+      padding: 6px 12px;
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .add-button:hover {
+      background-color: #cc5200;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>EEE Book Catalogue</h2>
+
+  <table>
+    <tr>
+      <th>Cover</th>
+      <th>Book Title</th>
+      <th>Author</th>
+      <th>Publisher</th>
+      <th>Price</th>
+      <th>Add to Cart</th>
+    </tr>
+    <tr>
+      <td><img src="powerbook.jpg" alt="Power Systems" class="book-cover"></td>
+      <td>Power Systems</td>
+      <td>C.L. Wadhwa</td>
+      <td>New Age</td>
+      <td>₹48.00</td>
+      <td><button class="add-button">Add to Cart</button></td>
+    </tr>
+    <tr>
+      <td><img src="electricalbook.jpg" alt="Electrical Machines" class="book-cover"></td>
+      <td>Electrical Machines</td>
+      <td>P.S. Bimbhra</td>
+      <td>Khanna Publishers</td>
+      <td>₹60.00</td>
+      <td><button class="add-button">Add to Cart</button></td>
+    </tr>
+    <tr>
+      <td><img src="controlbook.jpg" alt="Control Systems" class="book-cover"></td>
+      <td>Control Systems Engineering</td>
+      <td>I.J. Nagrath</td>
+      <td>New Age International</td>
+      <td>₹66.50</td>
+      <td><button class="add-button">Add to Cart</button></td>
+    </tr>
+  </table>
+
+</body>
+</html>
